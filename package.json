@@ -23,6 +23,7 @@
     "prettier": "^2.8.8"
   },
   "lint-staged": {
-    "*": "eslint --fix prettier --write"
+    "*.{astro, ts}": "eslint --fix",
+    "*": "prettier --write"
   }
 }
